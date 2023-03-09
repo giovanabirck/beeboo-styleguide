@@ -104,20 +104,6 @@ a {
     height: 10rem;
 }
 
-.background-bottom-2 {
-    position: absolute;
-    right: 3rem;
-    top: 55rem;
-    height: 25rem;
-}
-
-.background-top-2 {
-    position: absolute;
-    left: 3rem;
-    top: 90rem;
-    height: 10rem;
-}
-
 /* ––––––––––––––––––––––––––––––––––––––––––– */
 
 /* MASCOT */
@@ -185,21 +171,8 @@ a {
 
 .main-content-bottom-container {
     display: flex;
-    column-gap: 3rem;
 }
 
 .img-boo {
     height: 12rem;
-}
-
-.boo-container {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-}
-
-.boo-container-h4 {
-    font-size: 1.8rem;
-    font-weight: 700;
 }
