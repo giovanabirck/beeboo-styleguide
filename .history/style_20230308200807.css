@@ -43,13 +43,6 @@ html {
     width: 14rem;
 }
 
-.top-menu_item:hover {
-    background-color: rgba(249, 219, 108, 0.5);
-    transition-duration: 0.5s;
-    height: 5rem;
-    width: 14rem;
-}
-
 .top-menu_item {
     border-right: 2px solid #3A3A3A;
     height: 5rem;
@@ -61,18 +54,11 @@ html {
 
 .top-menu_item-icons {
     border-right: none;
-    height: 5rem;
+    height: 7rem;
     width: 14rem;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.top-menu_item-icons:hover {
-    background-color: rgba(249, 219, 108, 0.5);
-    transition-duration: 0.5s;
-    height: 5rem;
-    width: 14rem;
 }
 
 /* ––––––––––––––––––––––––––––––––––––––––––– */
@@ -81,15 +67,15 @@ html {
 
 .background-bottom {
     position: absolute;
-    left: 3rem;
-    bottom: 3rem;
+    left: 2rem;
+    bottom: 2rem;
     height: 25rem;
 }
 
 .background-top {
     position: absolute;
-    right: 3rem;
-    top: 9rem;
-    height: 10rem;
+    left: 2rem;
+    bottom: 2rem;
+    height: 25rem;
 }
 

@@ -61,14 +61,14 @@ html {
 
 .top-menu_item-icons {
     border-right: none;
-    height: 5rem;
+    height: 7rem;
     width: 14rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.top-menu_item-icons:hover {
+.top-menu_item:hover {
     background-color: rgba(249, 219, 108, 0.5);
     transition-duration: 0.5s;
     height: 5rem;
