@@ -218,3 +218,20 @@ a {
     background-color: #FFF7EE;
     border:  #FFF7EE;
 }
+
+.boo-fly {
+    animation: fly;
+    height: 5rem;
+}
+
+@keyframes fly {
+    0%{
+        transform: translate(0,110vh);opacity: .50;
+    }
+    50%{
+        transform: translate(110vw,0);opacity: 1;
+    }
+    100%{
+        transform: translate(0,110vh);opacity: .50;
+    }
+}
