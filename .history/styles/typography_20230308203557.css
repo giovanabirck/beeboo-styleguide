@@ -44,12 +44,8 @@ a {
 
 .top-menu_item-typography {
     background-color: #F9DB6C;
-    border-right: 2px solid #3A3A3A;
     height: 5rem;
     width: 14rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .top-menu_item:hover {
