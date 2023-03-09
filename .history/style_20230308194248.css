@@ -1,0 +1,42 @@
+/* 
+
+COLORS
+Background: #FFF7EE
+Text:       #3A3A3A
+Primary:    #F9DB6C
+Secondary:  #E56E42
+Tertiary:   #4C8C4A
+
+*/
+
+html {
+    background-color: #FFF7EE;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Truculenta', sans-serif;
+}
+
+/* TOP MENU */
+.top-menu {
+    outline: 2px solid #3A3A3A;
+    width: 99vw;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-menu_boo {
+    width: 50px;
+}
+
+
+/*
+<div class="top-menu_logo">LOGO</div>
+<div class="top-menu_colour">COLOUR</div>
+<div class="top-menu_typography">TYPOGRAPHY</div>
+<div class="top-menu_mascot">MASCOT</div>
+<div class="top-menu_imagery">IMAGERY</div>
+<div class="top-menu_icons">ICONS</div>
