@@ -112,7 +112,7 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 90vh;
+    height: 80vh;
 }
 
 .main-content_boo-item {
@@ -148,9 +148,5 @@ a {
 .main-content_text-h2 {
     font-size: 1.8rem;
     font-weight: 700;
-    margin: 0 0 4rem 0;
-}
-
-.main-content_text-img {
-    height: 15rem;
+    margin: 0 0 0.5rem 0;
 }

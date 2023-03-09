@@ -112,15 +112,15 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 90vh;
+    height: 80vh;
 }
 
 .main-content_boo-item {
     rotate: -15deg;
-    height: 20rem;
+    height: 15rem;
     animation: float 6s ease-in-out infinite;
     position: absolute;
-    right: 7rem;
+    right: 20rem;
 }
 
 @keyframes float {
@@ -132,8 +132,8 @@ a {
 
 .main-content_text {
     background-color: #FFFF;
-    height: 35rem;
-    width: 58rem;
+    height: 29rem;
+    width: 34rem;
     padding: 3rem;
     border: 2px dashed #3A3A3A;
     border-radius: 16px;
@@ -148,9 +148,23 @@ a {
 .main-content_text-h2 {
     font-size: 1.8rem;
     font-weight: 700;
+    margin: 0 0 0.5rem 0;
+}
+
+.main-content_text-p1 {
+    font-size: 1.8rem;
+    font-weight: 400;
     margin: 0 0 4rem 0;
 }
 
-.main-content_text-img {
-    height: 15rem;
+.main-content_text-p2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.main-content_text-p3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
 }
