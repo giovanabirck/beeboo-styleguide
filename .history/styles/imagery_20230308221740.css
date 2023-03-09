@@ -43,7 +43,7 @@ a {
     rotate: -15deg;
 }
 
-.top-menu_item-typography {
+.top-menu_item-imagery {
     background-color: #F9DB6C;
     border-right: 2px solid #3A3A3A;
     height: 5rem;
@@ -105,7 +105,7 @@ a {
 
 /* ––––––––––––––––––––––––––––––––––––––––––– */
 
-/* TYPOGRAPHY */
+/* ICONS */
 
 .main-content {
     display: flex;

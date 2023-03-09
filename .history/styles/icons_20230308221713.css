@@ -43,16 +43,6 @@ a {
     rotate: -15deg;
 }
 
-.top-menu_item-typography {
-    background-color: #F9DB6C;
-    border-right: 2px solid #3A3A3A;
-    height: 5rem;
-    width: 14rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .top-menu_item:hover {
     background-color: rgba(249, 219, 108, 0.5);
     transition-duration: 0.5s;
@@ -76,6 +66,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F9DB6C;
 }
 
 .top-menu_item-icons:hover {
@@ -105,7 +96,7 @@ a {
 
 /* ––––––––––––––––––––––––––––––––––––––––––– */
 
-/* TYPOGRAPHY */
+/* COLOUR */
 
 .main-content {
     display: flex;
@@ -143,4 +134,14 @@ a {
     font-size: 7rem;
     font-weight: 900;
     margin: 0 0 1rem 0;
+}
+
+.main-content_text-h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0 0 4rem 0;
+}
+
+.main-content_text-img {
+    height: 15rem;
 }
