@@ -186,13 +186,13 @@ a {
 .application-container {
     display: flex;
     align-items: center;
+    
 }
 
 .btn {
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
-    padding-top: 1.5rem;
 }
 
 .btn-btn{

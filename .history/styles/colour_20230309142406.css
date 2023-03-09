@@ -185,36 +185,16 @@ a {
 
 .application-container {
     display: flex;
-    align-items: center;
 }
 
 .btn {
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
-    padding-top: 1.5rem;
 }
 
 .btn-btn{
-    padding: 0.8rem 6rem;
-    font-family: 'Truculenta', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    color: #3A3A3A;
-    border: 2px solid #3A3A3A;
-    border-radius: 8px;
+    padding: 1rem 2rem;
 }
 
-.btn-primary{
-    background-color: #F9DB6C;
-}
 
-.btn-secondary{
-    background-color: #FFF7EE;
-    border: 2px solid #F9DB6C;
-}
-
-.btn-tertiary{
-    background-color: #FFF7EE;
-    border:  #FFF7EE;
-}
