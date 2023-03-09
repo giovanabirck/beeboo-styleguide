@@ -150,7 +150,7 @@ a {
 .main-content_text-h3 {
     font-size: 1.8rem;
     font-weight: 700;
-    margin: 0 0 3rem 0;
+    margin: 0 0 4rem 0;
 }
 
 .main-content_text-p1 {
@@ -158,5 +158,5 @@ a {
     font-weight: 400;
     margin: 0 0 4rem 0;
     width: 32rem;
-    line-height: 3rem;
+    line-height: ;
 }

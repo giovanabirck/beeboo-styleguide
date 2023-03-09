@@ -118,11 +118,11 @@ a {
 
 .main-content_boo-item {
     rotate: 15deg;
-    height: 30rem;
+    height: 25rem;
     animation: float 6s ease-in-out infinite;
     position: absolute;
     right: 15rem;
-    top: 18rem;
+    top: 20rem;
 }
 
 @keyframes float {
@@ -150,13 +150,5 @@ a {
 .main-content_text-h3 {
     font-size: 1.8rem;
     font-weight: 700;
-    margin: 0 0 3rem 0;
-}
-
-.main-content_text-p1 {
-    font-size: 1.8rem;
-    font-weight: 400;
     margin: 0 0 4rem 0;
-    width: 32rem;
-    line-height: 3rem;
 }
