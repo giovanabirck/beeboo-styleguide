@@ -163,12 +163,6 @@ a {
     margin: 0 0 1rem 0;
 }
 
-.main-content_text-h2 {
-    font-size: 4rem;
-    font-weight: 900;
-    margin: 0 0 1rem 0;
-}
-
 .main-content_text-h3 {
     font-size: 1.8rem;
     font-weight: 700;
@@ -178,19 +172,4 @@ a {
 .main-content_text-img {
     height: 15rem;
 }
-
-.main-content_text-application {
-    height: 29rem;
-}
-
-.application-container {
-    display: flex;
-}
-
-.btn {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-}
-
 

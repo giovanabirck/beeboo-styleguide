@@ -175,22 +175,7 @@ a {
     margin: 0 0 4rem 0;
 }
 
-.main-content_text-img {
+.ain-content_text-application {
     height: 15rem;
 }
-
-.main-content_text-application {
-    height: 29rem;
-}
-
-.application-container {
-    display: flex;
-}
-
-.btn {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-}
-
 

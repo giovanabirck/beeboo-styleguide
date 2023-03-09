@@ -180,17 +180,6 @@ a {
 }
 
 .main-content_text-application {
-    height: 29rem;
+    height: 15rem;
 }
-
-.application-container {
-    display: flex;
-}
-
-.btn {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-}
-
 

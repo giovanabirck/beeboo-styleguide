@@ -179,18 +179,7 @@ a {
     height: 15rem;
 }
 
-.main-content_text-application {
-    height: 29rem;
+.ain-content_text-application {
+    height: ;
 }
-
-.application-container {
-    display: flex;
-}
-
-.btn {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-}
-
 

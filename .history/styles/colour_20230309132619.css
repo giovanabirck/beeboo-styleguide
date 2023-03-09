@@ -183,14 +183,3 @@ a {
     height: 29rem;
 }
 
-.application-container {
-    display: flex;
-}
-
-.btn {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-}
-
-
