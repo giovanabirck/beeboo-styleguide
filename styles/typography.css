@@ -9,6 +9,14 @@ Tertiary:   #4C8C4A
 
 */
 
+:root {
+    --background: #FFF7EE;
+    --text: #3A3A3A;
+    --primary: #DEAD00;
+    --secondary: #E56E42;
+    --tertiary: #4C8C4A;
+}
+
 html {
     background-color: #FFF7EE;
     margin: 0px;
@@ -20,7 +28,7 @@ html {
 }
 
 a {
-    color: #3A3A3A;
+    color: var(--text);
     text-decoration: none;
 }
 
@@ -126,10 +134,21 @@ a {
 }
 
 @keyframes float {
-	0% {transform: translatey(0px);}
-    25% {transform: translatey(-10px);}
-	75% {transform: translatey(10px);}
-	100% {transform: translatey(0px);}
+    0% {
+        transform: translatey(0px);
+    }
+
+    25% {
+        transform: translatey(-10px);
+    }
+
+    75% {
+        transform: translatey(10px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
 }
 
 .main-content_text {
@@ -139,10 +158,68 @@ a {
     padding: 3rem;
     border: 2px dashed #3A3A3A;
     border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-content_text-h1 {
     font-size: 7rem;
     font-weight: 900;
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.25rem 0;
+}
+
+.main-content_text-h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0 0 0rem 0;
+}
+
+/* margin: top right bottom left */
+
+.main-content_link-font {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 0 0;
+}
+
+.main-content_site-h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 1.5rem 0 0 0;
+    color: var(--primary);
+}
+
+.main-content_site-h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 1rem 0 0 0;
+    color: var(--secondary);
+}
+
+.main-content_site-h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 1rem 0 0 0;
+    color: var(--tertiary);
+}
+
+.main-content_site-button {
+    font-size: 18px;
+    font-weight: 700;
+    font-weight: 500;
+}
+
+.main-content_site-body, .main-content_site-link {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main-content_site-link{
+    text-decoration: underline solid 1px;
+    color: var(--secondary);
+}
+
+.main-content_site-justification {
+    width: 290px;
 }
