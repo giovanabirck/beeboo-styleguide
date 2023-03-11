@@ -156,7 +156,7 @@ p {
     padding: 3rem;
     border: 2px dashed #3A3A3A;
     border-radius: 16px;
-    margin-top: 157px;
+    margin: 9.813rem 0rem 9.813rem 0rem;
 }
 
 .main-content_text-h1 {
@@ -172,6 +172,11 @@ p {
     width: 70%;
 }
 
+.button-section_right-col {
+    display: flex;
+    justify-content: center;
+}
+
 .bee-button {
     display: flex;
     justify-content: center;
@@ -179,12 +184,17 @@ p {
     text-align: center;
     background: #FFD954;
     border: 2px solid #3a3a3a;
-    max-width: 277px;
+    width: 277px;
     height: 77px;
-    font-size: 24px;
+    font-size: 1.8rem;
     font-weight: bold;
     border-radius: 4px;
     box-shadow: 5px 5px 5px #808080;
+}
+
+.bee-button p {
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 .main-content_button-section {
