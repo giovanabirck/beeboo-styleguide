@@ -199,7 +199,7 @@ a {
 }
 
 .main-content_text-application {
-    height: 57rem;
+    height: 55=rem;
 }
 
 .application-container {
@@ -270,6 +270,6 @@ a {
 .all-btn-container {
     display: flex;
     flex-direction: column;
-    row-gap: 4rem;
+    row-gap: 3rem;
     margin-top: 5rem;
 }

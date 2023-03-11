@@ -199,7 +199,7 @@ a {
 }
 
 .main-content_text-application {
-    height: 57rem;
+    height: 55rem;
 }
 
 .application-container {
@@ -236,25 +236,20 @@ a {
 .btn-tertiary{
     background-color: #FFF7EE;
     border:  #FFF7EE;
-    text-decoration: underline;
 }
 
-.btn-primary-2{
-    background-color: #E56E42;
-    color: #FFF7EE;
+.btn-primary{
+    background-color: #F9DB6C;
 }
 
-.btn-secondary-2{
+.btn-secondary{
     background-color: #FFF7EE;
-    border: 2px solid #E56E42;
-    color: #E56E42;
+    border: 2px solid #F9DB6C;
 }
 
-.btn-tertiary-2{
+.btn-tertiary{
     background-color: #FFF7EE;
     border:  #FFF7EE;
-    color: #E56E42;
-    text-decoration: underline;
 }
 
 .btn-h4 {
@@ -270,6 +265,6 @@ a {
 .all-btn-container {
     display: flex;
     flex-direction: column;
-    row-gap: 4rem;
+    row-gap: 3rem;
     margin-top: 5rem;
 }

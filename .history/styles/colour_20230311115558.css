@@ -199,7 +199,7 @@ a {
 }
 
 .main-content_text-application {
-    height: 57rem;
+    height: 55rem;
 }
 
 .application-container {
@@ -236,25 +236,6 @@ a {
 .btn-tertiary{
     background-color: #FFF7EE;
     border:  #FFF7EE;
-    text-decoration: underline;
-}
-
-.btn-primary-2{
-    background-color: #E56E42;
-    color: #FFF7EE;
-}
-
-.btn-secondary-2{
-    background-color: #FFF7EE;
-    border: 2px solid #E56E42;
-    color: #E56E42;
-}
-
-.btn-tertiary-2{
-    background-color: #FFF7EE;
-    border:  #FFF7EE;
-    color: #E56E42;
-    text-decoration: underline;
 }
 
 .btn-h4 {
@@ -262,14 +243,9 @@ a {
     margin-bottom: 0.5rem;
 }
 
-.btn-h4-2 {
-    padding: 0;
-    margin-bottom: 0.5rem;
-}
-
 .all-btn-container {
     display: flex;
     flex-direction: column;
-    row-gap: 4rem;
+    row-gap: 3rem;
     margin-top: 5rem;
 }
