@@ -95,6 +95,7 @@ a {
     left: 3rem;
     top: 23rem;
     height: 25rem;
+    z-index: -1;
 }
 
 .background-top {
@@ -102,6 +103,7 @@ a {
     right: 3rem;
     top: 9rem;
     height: 10rem;
+    z-index: -1;
 }
 
 .background-bottom-2 {
@@ -109,6 +111,7 @@ a {
     right: 3rem;
     top: 55rem;
     height: 25rem;
+    z-index: -1;
 }
 
 .background-top-2 {
@@ -116,6 +119,7 @@ a {
     left: 3rem;
     top: 90rem;
     height: 10rem;
+    z-index: -1;
 }
 
 /* ––––––––––––––––––––––––––––––––––––––––––– */
