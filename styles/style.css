@@ -166,7 +166,7 @@ a {
 .main-content_text-p1 {
     font-size: 1.8rem;
     font-weight: 400;
-    margin: 0 0 4rem 0;
+    margin: 0 0 2rem 0;
 }
 
 .main-content_text-p2 {
@@ -179,4 +179,20 @@ a {
     font-size: 1.5rem;
     font-weight: 400;
     margin: 0;
+}
+
+.main-content_desc-container {
+    display: flex;
+}
+
+.desc-container_left-col {
+    width: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.desc-container_right-col {
+    width: 50%;
 }
