@@ -143,8 +143,8 @@ a {
 .main-content_col-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5rem;
-    height: 100%;
+    gap: 2rem 5rem;
+    /* height: 100%; */
 }
 
 .main-content_left-col-container, .main-content_right-col-container {
@@ -167,16 +167,21 @@ a {
     margin: 0 0.25rem 0.5rem 0.25rem;
 }
 
-.icon-1 {
-    width: 2rem;
-    height: auto;
+.main-content_container-name {
+    font-size: 2rem;
+}
+
+.icon {
+    width: auto;
+    height: 2.5rem;
 }
 
 .icon_container-text {
     margin: 0.5rem 0 0.5rem 0;
+    font-weight: 400;
 }
 
 .main-content_line-break {
     border-left: 1px solid black;
-    height: 25rem;
+    height: 12rem;
 }
