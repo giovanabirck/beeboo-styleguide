@@ -86,6 +86,12 @@ a {
     width: 14rem;
 }
 
+.logo-container a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 /* ––––––––––––––––––––––––––––––––––––––––––– */
 
 /* BACKGROUND IMAGES */

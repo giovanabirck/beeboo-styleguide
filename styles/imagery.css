@@ -33,13 +33,9 @@ h3 {
 }
 
 ul {
-    font-size: 1.4rem;
     margin-top: 0;
 }
 
-p {
-    font-size: 1.4rem;
-}
 
 /* ––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -101,6 +97,12 @@ p {
     transition-duration: 0.5s;
     height: 5rem;
     width: 14rem;
+}
+
+.logo-container a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 /* ––––––––––––––––––––––––––––––––––––––––––– */
